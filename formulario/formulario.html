@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bolitron</title>
+        <link rel = "icon" type = "image/x-icon" href = "imagenes/boligrafo.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Bolitron</h1>
+            <h2>Formulario de opinión</h2>
+        </header>
+        <article>
+            <form action="" method="post"> 
+                <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+                    <label for="user_name">Nombre</label>
+                    <input type="text" name="nombre" id="user_name" required/>
+                    <br/> 
+                    <label for="user_email">Email</label>
+                    <input type="email" name="mail"id="user_email"/>
+                    <br/> 
+                    <label for="sexo">sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>    
+                    </select>
+                    <br/> 
+                    <label for="user_date">Fecha de nacimiento</label>
+                    <input type="date" name="Fecha" id="user_date"/>
+                    <br/> 
+                    <label for="opinion">Opinión</label>
+                    <textarea id="opinion" name="opinion" placeholder="Escribe tu opinión"></textarea>
+                    <br/> 
+                    <button type="submit" value="enviar">Enviar</button>
+                    <button type="reset" value="reiniciar">Reiniciar</button>
+                </fieldset>
+            </form>
+        </article>
+        <footer>
+            <hr/> 
+            <p>Alfonso Colas Gregorio x/12/2022</p>
+        </footer>
+    </body>
+</html>
